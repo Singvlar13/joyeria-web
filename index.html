@@ -1,10 +1,144 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="es">
 <head>
-    <title>Mi Joyería</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SINGVLAR - Acero y Plata</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+      opacity: 0.8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    .btn-call {
+      background: #111;
+      color: white;
+      border: 1px solid white;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .contact {
+      text-align: center;
+      background: #f5f5f5;
+      padding: 40px 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .floating {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+  </style>
+
 </head>
+
 <body>
-    <h1>Bienvenido a nuestra joyería</h1>
-    <p>Web en construcción.</p>
+
+<header>
+  <h1>SINGVLAR - Acero y Plata</h1>
+  <p>Acero inoxidable · Plata · Diseño moderno</p>
+
+<a class="btn btn-whatsapp" href="https://wa.me/34XXXXXXXXX">WhatsApp</a> <a class="btn btn-call" href="tel:34XXXXXXXXX">Llamar</a>
+
+</header>
+
+<section class="section">
+  <h2>Nuestra colección</h2>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed" alt="joyería">
+    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e" alt="joyería">
+    <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d" alt="joyería">
+    <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0" alt="joyería">
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contacto</h2>
+  <p>📞 Teléfono: 91 527 31 73</p>
+  <p>✉️ Email: info@singvlar.com</p>
+  <p>📍 Madrid, España</p>
+</section>
+
+<footer>
+  © 2026 Joyería Singvlar · Todos los derechos reservados
+</footer>
+
+<a class="floating" href="https://wa.me/34XXXXXXXXX">WhatsApp</a>
+
 </body>
 </html>
