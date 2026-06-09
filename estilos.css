@@ -270,3 +270,7 @@ h2 {
 .texto-justificado {
   text-align: justify;
 }
+
+body {
+  outline: 5px solid red;
+}
