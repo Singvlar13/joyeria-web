@@ -52,6 +52,56 @@
       color: #666;
       margin-top: 40px;
     }
+
+    /* === SECCIÓN TARJETAS PREMIUM === */
+
+.bloque-materiales {
+  background: #f6f6f6;
+  padding: 50px 20px;
+  margin-top: 40px;
+}
+
+.grid-materiales {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta {
+  background: white;
+  flex: 1;
+  min-width: 280px;
+  max-width: 450px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.tarjeta ul {
+  padding-left: 18px;
+  line-height: 1.7;
+}
+
+.etiqueta {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #666;
+  letter-spacing: 1px;
+}
   </style>
 </head>
 
@@ -68,6 +118,47 @@
 <div class="contenido">
 
   <h1>Acero y Plata</h1>
+
+  <div class="bloque-materiales">
+
+  <div class="grid-materiales">
+
+    <!-- ACERO -->
+    <div class="tarjeta">
+      <div class="etiqueta">MATERIAL</div>
+      <h2>💎 Acero inoxidable 316L</h2>
+      <p>
+        Un material moderno, resistente y perfecto para el uso diario.
+      </p>
+
+      <ul>
+        <li>Hipoalergénico</li>
+        <li>No se oxida ni se ennegrece</li>
+        <li>Muy resistente al desgaste</li>
+        <li>Sin mantenimiento</li>
+        <li>Gran relación calidad-precio</li>
+      </ul>
+    </div>
+
+    <!-- PLATA RODIADA -->
+    <div class="tarjeta">
+      <div class="etiqueta">PREMIUM</div>
+      <h2>✨ Plata rodiada</h2>
+      <p>
+        Plata de ley recubierta con rodio para mayor brillo y protección.
+      </p>
+
+      <ul>
+        <li>Brillo más intenso y elegante</li>
+        <li>Mayor resistencia a la oxidación</li>
+        <li>Acabado premium de joyería fina</li>
+        <li>Más durabilidad del color</li>
+        <li>Ideal para regalo</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
 
   <h2>💎 Acero inoxidable</h2>
 
