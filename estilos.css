@@ -11,6 +11,7 @@ body {
   font-family: Arial, sans-serif;
   background: #ffffff;
   color: #111;
+  padding-top: 0; 
 }
 
 /* =========================
@@ -21,6 +22,9 @@ nav {
   background: #111;
   text-align: center;
   padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav a {
