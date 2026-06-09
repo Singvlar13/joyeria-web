@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiénes Somos - SINGVLAR</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+
+    nav {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .contenido {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="quienes-somos.html">Quiénes somos</a>
+  <a href="Acero-y-Plata.html">Acero y Plata</a>
+<a href="donde-estamos.html">Dónde estamos</a>
+  <a href="contacto.html">Contacto</a>
+
+</nav>
+
+<div class="contenido">
+
+  <h1>Acero-y-Plata</h1>
+
+  <p>
+    ¿Por qué comprar acero?
+  </p>
+
+  <p>
+    Las joyas de acero inoxidable son piezas de extraordinaria calidad. 
+    El acero inoxidable es de elevada resistencia a la corrosión.
+    Las características que hacen que el acero destaque son:
+* Altamente hipoalergénico (no genera alergias en quien lo usa)
+* No se oxida ni se mancha
+* Conserva su brillo y color
+* Resistente al uso diario
+* Es económico
+* No es necesario darle mantenimiento
+* Diseños innovadores
+  </p>
+
+  <p>
+    Trabajamos continuamente para renovar nuestras colecciones y ofrecer piezas para todos los estilos,
+    desde diseños modernos y atrevidos hasta modelos clásicos y atemporales.
+  </p>
+
+  <p>
+    Nuestro objetivo es que cada cliente encuentre la joya perfecta para sí mismo o para regalar.
+  </p>
+
+</div>
+
+<footer>
+  © 2026 Joyería Singvlar · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
