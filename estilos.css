@@ -43,8 +43,9 @@ header {
   text-align: center;
   padding: 20px 10px;
 }
-header p {
-  margin: 10px 0;
+header p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
 }
 header img {
   display: block;
