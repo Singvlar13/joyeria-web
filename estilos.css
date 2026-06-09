@@ -11,7 +11,7 @@ body {
   font-family: Arial, sans-serif;
   background: #ffffff;
   color: #111;
-  padding-top: 70px; 
+  padding-top: 90px; 
 }
 
 /* =========================
@@ -41,7 +41,7 @@ nav a:hover {
 }
 header {
   text-align: center;
-  padding: 50px 20px 30px 20px;
+  padding: 30px 20px 20px 20px;
 }
 header p:first-of-type {
   font-weight: bold;
