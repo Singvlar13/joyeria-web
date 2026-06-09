@@ -131,6 +131,9 @@ h1 {
   max-width: 1000px;
   margin: auto;
 }
+.section h2 {
+  text-align: center;
+}
 
 /* =========================
    GALERÍA
