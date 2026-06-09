@@ -94,7 +94,17 @@ footer {
 .btn-call {
   background: #111;
   color: white;
-  border: 1px solid #111;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.btn-call:hover {
+  background: #333;
+  transform: translateY(-2px);
 }
 
 /* =========================
