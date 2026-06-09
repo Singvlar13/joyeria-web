@@ -5,13 +5,15 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
 }
 
 body {
   font-family: Arial, sans-serif;
   background: #ffffff;
   color: #111;
-  padding-top: 90px; 
+  min-height: 100vh;
+  padding-top: 90px;
 }
 
 /* =========================
@@ -39,17 +41,24 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+/* =========================
+   HEADER
+========================= */
+
 header {
   text-align: center;
   padding: 30px 20px 20px 20px;
 }
-header p:first-of-type {
-  font-weight: bold;
-  font-size: 18px;
-}
+
 header img {
   display: block;
   margin: 0 auto;
+}
+
+header p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* =========================
@@ -65,17 +74,6 @@ header img {
 
 h1 {
   text-align: center;
-}
-
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 12px;
-  color: #666;
 }
 
 /* =========================
@@ -134,11 +132,6 @@ footer {
   margin: auto;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 /* =========================
    GALERÍA
 ========================= */
@@ -167,7 +160,7 @@ h2 {
 }
 
 /* =========================
-   TARJETAS ACERO / PLATA
+   TARJETAS
 ========================= */
 
 .bloque-materiales {
@@ -211,50 +204,10 @@ h2 {
 }
 
 /* =========================
-   DIRECCIÓN (DÓNDE ESTAMOS)
+   DIRECCIÓN / BLOQUES
 ========================= */
 
-.direccion {
-  background: #f5f5f5;
-  max-width: 600px;
-  width: 90%;
-  margin: 30px auto;
-  padding: 25px;
-  border-radius: 12px;
-  line-height: 1.6;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-/* =========================
-   MENÚ RESPONSIVE
-========================= */
-
-@media (max-width: 768px) {
-
-  nav {
-    padding: 10px;
-  }
-
-  nav a {
-    display: inline-block;
-    margin: 8px 10px;
-    font-size: 14px;
-  }
-
-  body {
-    padding-top: 100px;
-  }
-
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery img {
-    height: auto;
-  }
-}
-
+.direccion,
 .bloque {
   background: #f5f5f5;
   max-width: 600px;
@@ -267,26 +220,31 @@ h2 {
   box-sizing: border-box;
 }
 
-.texto-justificado {
-  text-align: justify;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-}
-
-body {
-  min-height: 100vh;
-}
+/* =========================
+   MENÚ RESPONSIVE
+========================= */
 
 @media (max-width: 768px) {
+
   body {
-    padding-top: 100px !important;
+    padding-top: 100px;
   }
 
-  header {
-    padding-top: 40px !important;
+  nav {
+    padding: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 14px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img {
+    height: auto;
   }
 }
