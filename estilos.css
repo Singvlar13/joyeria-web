@@ -255,3 +255,7 @@ h2 {
   line-height: 1.6;
   box-sizing: border-box;
 }
+
+.texto-justificado {
+  text-align: justify;
+}
