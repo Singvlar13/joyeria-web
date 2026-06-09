@@ -22,8 +22,10 @@ nav {
   background: #111;
   text-align: center;
   padding: 15px;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
 }
 
