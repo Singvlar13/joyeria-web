@@ -227,13 +227,15 @@ footer {
 ========================= */
 
 .direccion {
-  background: #f5f5f5;
+  background: #f5f5f5 !important;
   max-width: 600px;
-  margin: 30px auto;
+  width: 90%;
+  margin: 30px auto !important;
   padding: 25px;
   border-radius: 12px;
   text-align: center;
   line-height: 1.6;
+  display: block;
 }
   .direccion img {
   margin-bottom: 15px;
