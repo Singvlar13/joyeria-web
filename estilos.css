@@ -48,7 +48,8 @@ header p {
 }
 header img {
   display: block;
-  margin: 0
+  margin: 0 auto;
+}
 
 /* =========================
    CONTENIDO GENERAL
@@ -228,6 +229,18 @@ h2 {
     display: inline-block;
     margin: 8px 10px;
     font-size: 14px;
+  }
+
+  body {
+    padding-top: 100px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img {
+    height: auto;
   }
 }
 
