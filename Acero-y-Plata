@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acero y Plata - SINGVLAR</title>
+  <title>Quiénes Somos - SINGVLAR</title>
 
   <style>
     html, body {
@@ -59,32 +59,23 @@
 
 <nav>
   <a href="index.html">Inicio</a>
-  <a href="quienes-somos.html">Quiénes somos</a>
   <a href="Acero-y-Plata.html">Acero y Plata</a>
+  <a href="quienes-somos.html">Quiénes somos</a>
   <a href="donde-estamos.html">Dónde estamos</a>
   <a href="contacto.html">Contacto</a>
-
 </nav>
 
 <div class="contenido">
 
-  <h1>Acero-y-Plata</h1>
+  <h1>Acero y Plat</h1>
 
   <p>
-    ¿Por qué comprar acero?
+    Bienvenidos a SINGVLAR.
   </p>
 
   <p>
-    Las joyas de acero inoxidable son piezas de extraordinaria calidad. 
-    El acero inoxidable es de elevada resistencia a la corrosión.
-    Las características que hacen que el acero destaque son:
-* Altamente hipoalergénico (no genera alergias en quien lo usa)
-* No se oxida ni se mancha
-* Conserva su brillo y color
-* Resistente al uso diario
-* Es económico
-* No es necesario darle mantenimiento
-* Diseños innovadores
+    Somos un negocio familiar especializado en joyería de acero inoxidable y plata,
+    comprometido con ofrecer productos de calidad, diseños actuales y una atención cercana.
   </p>
 
   <p>
