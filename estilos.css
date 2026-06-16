@@ -272,3 +272,7 @@ footer {
   margin-top: 50px;
   letter-spacing: 0.5px;
 }
+
+.seo-texto p {
+  text-align: justify;
+}
